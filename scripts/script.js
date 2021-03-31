@@ -42,7 +42,7 @@ let playGame = () => {
                     numOfTurns += 1;
                     console.log(`Turn Number: ${numOfTurns - 1}`);
                     console.log('Next turn')
-                    if(numOfTurns > 9){
+                    if(numOfTurns > 8){
                         console.log('No one wins');
                         displayWin('No One');
                     }
